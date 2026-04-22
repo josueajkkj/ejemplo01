@@ -1,11 +1,11 @@
 const mysql = require("mysql2/promise");
 
 const pool = mysql.createPool({
-  host: "yamabiko.proxy.rlwy.net",
+  host: "shinkansen.proxy.rlwy.net",
   user: "root",
-  password: "nKgSPhSJYWsqwwxZtZSBnYCoUtqlSgox",
+  password: "TdiwXGyqmTGhcKtISEWGiKtTEnOMrjkv",
   database: "railway",
-  port: 47307,
+  port: 45135,
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0,
